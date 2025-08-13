@@ -1,0 +1,84 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contacto - MarSiana Digital</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <nav class="nav">
+      <a href="index.html" class="logo">
+         <img src="images/logo.png" alt="logo de marsiana"></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="beneficios.html">Beneficios</a></li>
+        <li><a href="proceso.html">Proceso</a></li>
+        <li><a href="acerca.html">Acerca de</a></li>
+        <li><a href="contacto.html" class="active">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="section contacto-container">
+    <h1>Contacto</h1>
+    <p>Para empezar te sugiero que uses el formulario de contacto de esta página. Si prefieres un contacto directo, aquí tienes mi correo electrónico y redes. Para los primeros contactos, prefiero la vía escrita; me permite ofrecerte una respuesta más atenta y detallada, dedicándole el tiempo que tu proyecto merece.</p>
+    <p>Soy una adicta a la tecnología, así que siempre estoy conectada y te responderé a la brevedad. Te ofrezco mi experiencia, para que tu proyecto no solo se vea bien, sino que también genere resultados reales.</p>
+
+    <div class="contact-content" style="justify-content: center; gap: 40px;">
+     
+<form class="contacto-form" action="https://formspree.io/f/xkgzewno" method="POST" style="max-width: 480px; margin: 0;">
+  <label for="nombre">Nombre</label>
+  <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+  <label for="email">Correo electrónico</label>
+  <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+
+  <label for="mensaje">Mensaje</label>
+  <textarea id="mensaje" name="mensaje" placeholder="Tu mensaje" rows="5" required></textarea>
+
+  <!-- Campo oculto para evitar spam -->
+  <input type="hidden" name="_next" value="https://tusitio.com/gracias.html">
+  <input type="hidden" name="_captcha" value="false">
+
+  <button type="submit">Enviar mensaje</button>
+</form>
+<div class="contacto-icons">
+  <div class="social-item">
+    📧 <span>Email:</span>
+    <a href="mailto:marinamdberger@gmail.com">marinamdberger@gmail.com</a>
+</div>
+
+<div class="social-item">
+    👍 <span>Facebook:</span>
+    <a href="https://www.facebook.com/profile.php?id=61579228293539" target="_blank" rel="noopener noreferrer">
+        facebook.com/marinamdberger
+    </a>
+</div>
+
+<div class="social-item">
+    📸 <span>Instagram:</span>
+    <a href="https://www.instagram.com/marsiana_digital/" target="_blank" rel="noopener noreferrer">
+        instagram.com/marsiana_digital
+    </a>
+</div>
+
+<div class="social-item">
+    💼 <span>LinkedIn:</span>
+    <a href="https://www.linkedin.com/in/marina-mildemberger/" target="_blank" rel="noopener noreferrer">
+        linkedin.com/in/marina-mildemberger
+    </a>
+</div>
+
+</div>
+
+
+  <footer class="footer">
+    &copy; 2025 MarSiana Digital. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
